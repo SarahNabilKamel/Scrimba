@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+</head>
+
+<body>
+
+    <div class="contaner">
+        <div class="pager">
+            <h2 id="pager">Pager</h2>
+            <p id="pagermsg">1333</p>
+        </div>
+        <div class="phone">
+            <h2 id="phone">Phone</h2>
+            <p id="phonemsg">133</p>
+            <div class="butn-area">
+                <div > 
+                    <button class="num-butn" onclick="add('1')">1</button>
+                    <button class="num-butn" onclick="add('4')">4</button>
+                    <button class="num-butn" onclick="add('7')">7</button>
+                    <button class="num-butn" onclick="add('*')">*</button>
+                </div>
+                <div >
+                    <button class="num-butn" onclick="add('2')">2</button>
+                    <button class="num-butn" onclick="add('5')">5</button>
+                    <button class="num-butn" onclick="add('8')">8</button>
+                    <button class="num-butn" onclick="add('0')">0</button>
+                </div>
+                <div >
+                    <button class="num-butn" onclick="add('3')">3</button>
+                    <button class="num-butn" onclick="add('6')">6</button>
+                    <button class="num-butn" onclick="add('9')">9</button>
+                    <button class="num-butn" onclick="add('#')">#</button>
+
+                </div>           
+            </div>
+
+            <button id="reset" onclick="reset()">RESET</button>
+            <button id="send" onclick="send()">SEND</button>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

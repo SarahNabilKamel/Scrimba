@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@800&family=Happy+Monkey&family=Tilt+Neon&display=swap');
+@font-face {
+    font-family: myFont ;
+    src: url(font.ttf);
+}
+
+
+
+body
+{
+    background-color: rgb(40, 13, 103);
+    text-align: center; 
+     
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    height: 600px;
+    
+}
+
+.container1
+{
+    
+    width: 300px;
+}
+
+
+.type
+{
+    color: white;
+    margin: 30px;
+    font-family: Encode Sans;
+    font-size: xxx-large;
+    
+}
+
+.Num
+{
+    color: red;
+    background-color: black;
+    font-weight: bolder;
+    font-family: myFont;
+    font-size: xxx-large;  
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 25px;
+    margin-left: 75px;
+    margin-right: 75px;
+    width: auto;
+    height: 80px;
+    
+       
+    
+}
+
+.incre-button
+{
+    margin-top: 20px;
+    margin: 3px;
+    font-size: x-large;
+    background-color: rgb(40, 13, 103);
+    color:darkgrey;
+    width: 40px;
+    height: 40px;
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+    font-family: myFont;
+
+
+}

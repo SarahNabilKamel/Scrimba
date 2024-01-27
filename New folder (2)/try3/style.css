@@ -1,0 +1,121 @@
+@font-face {
+    font-family: myFont ;
+    src: url(font.ttf);
+}
+
+*{
+    font-family: myFont;
+}
+
+.contaner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.pager
+{
+    background-color: black;
+    width: 220px ;
+    
+}
+
+#pager
+{
+    color: azure;
+    margin-top: 5px;
+    margin-bottom: 3px;    
+}
+
+#pagermsg
+{
+    background-color: rgb(57, 158, 124);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: x-large;
+    height: 25px;
+
+}
+
+.phone
+{
+    background-color: darkgray;
+    margin-top: 50px;
+    width: 220px;
+    height: 330px;
+
+}
+
+#phone
+{
+    margin-top: 5px;
+    margin-bottom: 3px; 
+}
+
+#phonemsg
+{
+    color :white;
+    background-color:dimgrey;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: x-large;
+    height: 30px;
+}
+
+.butn-area
+{
+    margin-bottom: 7px;
+    display: flex;
+    margin: 7px;
+    
+}
+
+.num-butn
+{
+   width: 65px;
+   height: 30px; 
+   margin-top: 3px;
+   border: none;
+   font-size: larger;
+}
+
+#reset
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+    color: white;
+    background-color: brown;
+    width: 210px;
+    height: 30px;
+    border: 2px solid black;
+    font-size: x-large;
+    padding-top: 3px;
+    padding-bottom: 35px;
+}
+
+#send
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+    background-color: darkgreen;
+    width: 210px;
+    height: 30px;
+    border: 2px solid black;
+    font-size: x-large;
+    padding-top: 3px;
+    padding-bottom: 35px;
+}
